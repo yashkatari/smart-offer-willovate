@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { ArrowRight, Clock, Menu, X, LogOut, User as UserIcon } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { ArrowRight, Clock, Menu, X, LogOut } from 'lucide-react';
 import { Shader, ChromaFlow, FilmGrain, FlutedGlass, Swirl } from 'shaders/react';
 import { useNavigate } from 'react-router-dom';
 import { supabase } from './lib/supabase';

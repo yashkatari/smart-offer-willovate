@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ArrowRight, TrendingUp, Users, Calendar, Activity, X, LogOut } from 'lucide-react';
+import { TrendingUp, Calendar, Activity, X, LogOut } from 'lucide-react';
 import { supabase } from './lib/supabase';
 import { useNavigate } from 'react-router-dom';
 
